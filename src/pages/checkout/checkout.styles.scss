@@ -33,9 +33,12 @@
 		margin-top: 50px;
 	}
 	.test-warning {
-		text-align: center;
-		margin-top: 40px;
-		font-size: 24px;
-		color: red;
+		align-self: flex-end;
+		margin-top: 20px;
+		font-size: 0.7rem;
+		color: #e55039;
+		font-family: 'Raleway', sans-serif;
+		text-align: right;
+		// font-weight: bold;
 	}
 }

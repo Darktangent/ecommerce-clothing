@@ -4,58 +4,61 @@ import './footer.styles.css';
 export default function Footer() {
 	return (
 		<div>
-			<footer class='myFooter' id='footer-wrapper'>
-				<div class='footer-icons'>
+			<footer className='myFooter' id='footer-wrapper'>
+				<div className='footer-icons'>
 					<a
 						href='https://www.pinterest.com/'
-						class='generic-anchor'
+						className='generic-anchor'
 						target='_blank'
 						rel='noopener noreferrer'>
-						<i class='fa fa-pinterest' />
+						<i className='fa fa-pinterest' />
 					</a>
 					<a
 						href='https://www.facebook.com/'
-						class='generic-anchor'
+						className='generic-anchor'
 						target='_blank'
 						rel='noopener noreferrer'>
-						<i class='fa fa-facebook' />
+						<i className='fa fa-facebook' />
 					</a>
 					<a
 						href='https://twitter.com/'
-						class='generic-anchor'
+						className='generic-anchor'
 						target='_blank'
 						rel='noopener noreferrer'>
-						<i class='fa fa-twitter' />
+						<i className='fa fa-twitter' />
 					</a>
 					<a
 						href='http://instagram.com/'
-						class='generic-anchor'
+						className='generic-anchor'
 						target='_blank'
 						rel='noopener noreferrer'>
-						<i class='fa fa-instagram' />
+						<i className='fa fa-instagram' />
 					</a>
 					<a
 						href='https://www.youtube.com/'
-						class='generic-anchor'
+						className='generic-anchor'
 						target='_blank'
 						rel='noopener noreferrer'>
-						<i class='fa fa-youtube' />
+						<i className='fa fa-youtube' />
 					</a>
 					<a
 						href='https://plus.google.com/'
-						class='generic-anchor'
+						className='generic-anchor'
 						target='_blank'
 						rel='noopener noreferrer'>
-						<i class='fa fa-google-plus' />
+						<i className='fa fa-google-plus' />
 					</a>
 				</div>
-				<section class='footer-bottom'>
-					<div class='footer-bottom-wrapper'>
-						<i class='fa fa-copyright' /> 2019{' '}
+				<section className='footer-bottom'>
+					<div className='footer-bottom-wrapper'>
+						<i className='fa fa-copyright' /> 2019{' '}
 						<a href='http://www.rohanganguly.me/'>
 							<strong>Rohan Ganguly</strong>
 						</a>{' '}
-						<span class='footer-bottom-rights'> - All Rights Reserved - </span>
+						<span className='footer-bottom-rights'>
+							{' '}
+							- All Rights Reserved -{' '}
+						</span>
 					</div>
 				</section>
 			</footer>
